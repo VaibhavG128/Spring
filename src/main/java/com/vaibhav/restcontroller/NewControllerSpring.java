@@ -77,10 +77,14 @@ public class NewControllerSpring {
 	}
 	
 	// add handler to generic exception which accept all types of error
-	
-	@ExceptionHandler
-	public ResponseEntity<CustomExceptionHandler> handlerException(Exception exc)
-	{
-		return null;
+//	
+//	@ExceptionHandler
+//	public ResponseEntity<CustomExceptionHandler> handlerException(Exception exc)
+//	{
+//		CustomExceptionHandler cus = new CustomExceptionHandler();
+//		cus.setStatus(HttpStatus.NOT_FOUND.value());
+//		cus.setMessage(exc.getMessage());
+//		cus.setTimeStamp(System.currentTimeMillis());
+//		return new ResponseEntity<>(cus,HttpStatus.NOT_FOUND);
+//	}
 	}
-}
