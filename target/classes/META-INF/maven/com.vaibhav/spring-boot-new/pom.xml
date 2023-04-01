@@ -48,7 +48,6 @@
       <artifactId>junit</artifactId>
       <scope>test</scope>
     </dependency>
-
-
   </dependencies>
+  <build><finalName>spring-boot-new</finalName></build>
 </project>
